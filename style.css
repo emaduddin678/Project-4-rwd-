@@ -2,17 +2,223 @@
     margin: 0;
     padding: 0;
 }
-body{
-    margin: 0;
-}
+/* header section=navbar start here  */
 .header{
     z-index: 99;
     background-color: rgb(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+/* header section=navbar end here  */
+
+/* Banner section start here  */
+.banner .container-fluid .row h1{
+    font-size: 50pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.banner .container-fluid .row h2{
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 40pt;
     
 }
-/* .banner{
-    background: url(images/banner.png);
-    image-resolution: ;
-} */
+.banner .container-fluid .row h4{
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 14pt;
+    margin: 0;
+}
+/* banner section end  */
+.description{
+    background-color: #f9f9f9;
+}
+#top-description h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 30pt;
+}
+#top-description p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+.ttp .col-12 p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+}
+/* banner section end  */
+.insta{
+    background-color: #2c2c2c;
+    color: #d5d5d5;
+}
+/* top heading with line  */
+.insta h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    position: relative;
+}
+.insta h3::after{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #d5d5d5;
+    position: absolute;
+    top: 61px;
+    right: 400px;
+
+}
+.insta h3::before{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #d5d5d5;
+    position: absolute;
+    top: 61px;
+    left: 400px;
+}
+/* top heading with line  */
+ /* bottom button start */
+.insta .container-fluid p{
+    border: 1px solid #878787;
+    display: inline;
+}
+/* bottom button end  */
+/* journal part start  */
+
+/* top heading with line  */
+.journal h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    position: relative;
+    color: #444444;
+}
+.journal h3::after{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #444444;
+    position: absolute;
+    top: 61px;
+    right: 340px;
+
+}
+.journal h3::before{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #444444;
+    position: absolute;
+    top: 61px;
+    left: 340px;
+}
+/* top heading with line  */
+/* journal cards start here  */
+.journal-cards .card .card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.journal-cards .card .card-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+.journal-cards .card a{
+    text-decoration: none;
+    color: #444444;
+    border-bottom: 2px solid rgb(34, 156, 226);
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+/* journal last part  */
+/* left side start  */
+#last-journal h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #444444;
+    font-size: 18pt;
+    position: relative;
+}
+#last-journal h2::after{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #727272;
+    position: absolute;
+    top: 13px;
+    left: 215px;
+}
+#last-journal p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+}
+#last-joutnal .low{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+/* left side end  */
+/* right side start  */
+#service h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #444444;
+    font-size: 18pt;
+    position: relative;
+}
+#service h2::after{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #727272;
+    position: absolute;
+    top: 13px;
+    left: 130px;
+}
+#service h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+#service p{
+    font-family: 'Roboto', sans-serif;
+}
+#service i{
+    color: #28b8d8;
+    font-size: 45px;
+}
+/* journal all part end  */
+
+
+
+
+
+/* Font Family  */
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rowdies', cursive;
+ */
+
+
+
+   /* Bootstrap 4 grid tiers and media query breakpoints
+
+   xs = Extra small <576px. Max container width None (auto)
+
+   sm = Small ≥576px. Max container width 540px.
+
+   md = Medium ≥768px. Max container width 720px.
+
+   lg = Large ≥992px. Max container width 960px.
+
+   xl = Extra large ≥1200px. Max container width 1140px. */
